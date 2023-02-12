@@ -1,0 +1,336 @@
+<html> 
+
+  <head> 
+  
+  <title>Learning</title>
+  
+    <link rel="stylesheet" href="styletwo.css">
+  
+  </head>
+  
+  <body>
+
+<div class="topnav">
+  <a class="active" href="frontpage.html">Home</a>
+  <a href="learning.html">Learning</a>
+  <a href="About.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+  <br>
+   <body>
+ 
+ <h1 style="font-size:20pt;">The C++ </h1>
+ 
+    <p> general-purpose object-oriented programming language developed by Bjarne Stroustrup of Bell Labs in 1979. C++ was originally called 'C with classes,' and was built as an extension of the C language. Its name reflects its origins; C++ literally means 'increment C by 1
+    </p> 
+  <p>  What is the basic structure of a C++ program? <br> 
+c++
+beginner
+
+Edpresso Team
+Structure of a C++ program
+A C++ program is structured in a specific and particular manner. In C++, a program is divided into the following three sections:
+
+Standard Libraries Section
+Main Function Section
+Function Body Section </p>
+<p>
+For example, lets look at the implementation of the Hello World program:
+
+    <img src="https://1.bp.blogspot.com/-W2XBNFmzadg/Wf5qcgD7d0I/AAAAAAAADpg/Y_piEQbpUcQ0KoeNYEOzJcALVQK6x3RVwCLcBGAs/s1600/helloworld1.jpg" alt="hello world" width="500" height="150">
+
+    
+    </p>
+    
+    <p>  namespace std;
+#include is a specific preprocessor command that effectively copies and pastes the entire text of the file, specified between the angle brackets, into the source code. 
+
+
+The file <iostream>, which is a standard file that should come with the C++ compiler, is short for input-output streams. This command contains code for displaying and getting an input from the user.
+
+namespace is a prefix that is applied to all the names in a certain set. iostream file defines two names used in this program - cout and endl.
+
+This code is saying: Use the cout and endl tools from the std toolbox.
+
+Main function section 
+1
+int main() {}
+The starting point of all C++ programs is the main function.
+
+This function is called by the operating system when your program is executed by the computer.
+
+{ signifies the start of a block of code, ​and } signifies the end.
+
+Function body section
+1 
+  cout << "Hello World" << endl;
+2 
+  return 0;
+The name cout is short for character output and displays whatever is between the << brackets.
+
+Symbols such as << can also behave like functions and are used with the keyword cout.
+
+The return keyword tells the program to return a value to the function int main
+
+After the return statement, execution control returns to the operating system component that launched this program.
+</p>
+
+ <h2> Uses of C++ </h> 
+
+<details>
+  <summary style ="font-size:18px">Games </summary>
+  <p style="font-size:15px">Close to the hardware, can easily manipulate resources, provide procedural programming over CPU intensive functions and is fast. It is also able to override the complexities of 3D games and provides multilayer networking. All these benefits of C++ make it a primary choice to develop the gaming systems as well as game development suites. close to the hardware, can easily manipulate resources, provide procedural programming over CPU intensive functions and is fast. It is also able to override the complexities of 3D games and provides multilayer networking. All these benefits of C++ make it a primary choice to develop the gaming systems as well as game development suites.
+</p>
+</details> 
+
+<details>
+  
+    <summary style ="font-size:18px">Database</summary>
+  <p style="font-size:15px">C++ is also used in writing database management software. The two most popular databases MySQL and Postgres are written in C++.<b>
+
+MYSQL Serve
+MySQL, one of the most popular database software that is used widely in many real-world applications is written in C++.
+<b>
+This is the world’s most popular open-source database. This database is written in C++ and is used by most of the organizations.
+
+
+.
+.</p>
+
+</details>
+   <br> 
+  
+   <table style = border="1px solid" ; width ="700px" >
+    <caption>Data types</caption>
+    <tr>
+        <th>Data types</th>
+        <th>Keyword</th>
+        <th>Size in bytes</th>
+        
+    </tr>
+    <tr>
+        <td>Integer(int)</td>
+        <td>int</td>
+        <td>2 or 4</td>
+        
+    </tr>
+    <tr>
+        <td>Character</td> 
+        <td>char</td>
+        <td>1</td> 
+        
+    </tr>
+    <tr>
+        <td>Boolean(bool)</td>
+        <td>bool(true or false)</td>
+        <td>1</td> 
+        
+    </tr>
+    <tr>
+        <td>String</td>
+        <td>string</td>
+        <td>1</td>
+   </tr>
+        <td>Floating point</td> 
+        <td> float</td>
+        <td> 4</td> 
+        
+    </tr>
+     <tr > 
+       <td> Double Floating Point</td>
+       <td> double </td>
+       <td> 8</td> 
+       
+     </tr>
+     
+     <tr> 
+     
+      <td> Wide Character</td>
+       <td>  wchar_t</td>
+       <td> 2</td>
+     
+     <tr/>
+     
+ <tr> 
+     
+      <td> Void</td>
+       <td> void</td>
+       <td> empty</td>
+     
+     <tr/>
+     
+     
+     
+    
+</table>
+
+ <br> 
+ 
+<p style= "font-size: 15px">1. 
+The int keyword is used to indicate integers.
+Its size is usually 4 bytes. Meaning, it can store values from -2147483648 to 2147483647<br> 
+For example : 
+ <br> 
+   <code style = "font-size:13px" > int salary =1000;</code>
+   
+   </p> 
+   
+     <p style= "font-size: 15px">2. Keyword char is used for characters.
+Its size is 1 byte.
+Characters in C++ are enclosed inside single quotes ' '.
+<br> 
+For example : 
+ <br> 
+   <code style = "font-size:13px" >char test = 'h' ;</code>
+   
+   </p> 
+   
+<p style= "font-size: 15px">3. The bool data type has one of two possible values: true or false.
+Booleans are used in conditional statements and loops
+<br> 
+For example : 
+ <br> 
+   <code style = "font-size:13px" >bool cond = false;</code>
+   
+   </p> 
+   
+   
+    <p style= "font-size: 15px">4.5 float and double are used to store floating-point numbers (decimals and exponentials).
+The size of float is 4 bytes and the size of double is 8 bytes. Hence, double has two times the precision of float. To learn more, visit C++ float and double. 
+<br> 
+For example : 
+ <br> 
+   <code style = "font-size:13px" >float area = 80.74;
+double volume = 100.687874;</code>
+   
+   </p> 
+   
+ <p style= "font-size: 15px">6. Strings are used for storing text. A string variable contains a collection of characters surrounded by double quotes
+<br> 
+For example : 
+ <br> 
+   <code style = "font-size:13px" >string saysomething = "Hello";</code>
+   
+   </p> 
+   
+    <p style= "font-size: 15px">7. Wide character wchar_t is similar to the char data type, except its size is 2 bytes instead of 1.
+It is used to represent characters that require more memory to represent them than a single char.
+<br> 
+For example : 
+ <br> 
+   <code style = "font-size:13px" >wchar_t test = L'ם' </code>
+   
+   </p> 
+   
+       <p style= "font-size: 15px">8.The void keyword indicates an absence of data. It means "nothing" or "no value". 
+   </p> 
+   
+   
+    <h3> C++ Type Modifiers </h3>
+    
+        
+    <p style= "font-size: 15px"> We can further modify some of the fundamental data types by using type modifiers.</p>
+    
+   <br> 
+   
+      <table style = border="1px solid black" ; width ="700px" >
+    <tr>
+        <th>Data Type</th>
+        <th>Size(In byte)</th>
+        <th>Range</th>
+        
+    </tr>
+   <tr>
+       <td>short int</td>
+       <td>2</td>
+       <td> -32,768 to 32,767</td>
+       
+   </tr> 
+<tr>
+    <td>unsigned int</td>
+    <td>4</td>
+    <td>0 to 4294967295</td>
+    
+</tr>
+   <tr>
+     <td>signed int</td>  
+       <td>4</td>
+       <td>-2147483648 to 2147483647</td>
+       
+   </tr> 
+    <tr>
+        
+       <td>unsigned short int</td> 
+        <td>2</td>
+        <td>0 to 65,535</td>
+        
+        
+    </tr>
+    
+    <tr>
+        <td>signed short int</td>
+        <td>2</td>
+        <td>-32768 to 32767</td>
+        
+        
+    </tr>
+    <tr>
+       <td>long int	</td> 
+        <td>8</td>
+        <td>-2,147,483,648 to 2,147,483,647</td>
+        
+        
+    </tr>
+    <tr>
+        <td>signed long int</td>
+        <td>8</td>
+        <td>same as long int</td>
+        
+        
+    </tr>
+    <tr>
+       <td>unsigned long int</td> 
+        <td>8</td>
+        <td>0 to 4,294,967,295</td>
+        
+    </tr>
+    <tr>
+        <td>long long int</td>
+        <td>8</td>
+        <td>-(2^63) to (2^63)-1</td>
+       
+    </tr>
+    <tr>
+        <td>unsigned long long int</td>
+        <td>8</td>
+        <td>0 to 18,446,744,073,709,551,615</td>
+        
+    </tr>
+    <tr>
+      <td>unsigned char </td>
+      <td>1</td>
+      <td>0 to 255</td>
+      
+    </tr>
+   
+   
+   <tr>
+      <td>signed char</td>
+      <td>1</td>
+      <td>-127 to 127</td>
+      
+    </tr>
+    
+    </table>
+    <p style= "font-size: 15px"> The size of variables might be different from those shown in the above table, depending on the compiler and the computer you are using. </p>
+ 
+    
+    <a href="More.html">next page</a>
+    
+    
+   
+  
+  </body> 
+  
+  
+  </html> 
